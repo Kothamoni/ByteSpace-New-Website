@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-heading: var(--font-poppins);
+  --font-body: var(--font-urbanist);
+
+  /* Verify these against Figma (click item > Fill) */
+  --color-brand-blue: #0a3fe8;
+  --color-brand-lime: #c8f902;
+  --color-ink: #141414;
+  --color-muted: #6b7280;
+  --color-surface: #f1f1f1;
+}
+
+body {
+  color: var(--color-ink);
+  background: #fff;
+}
+
+/* Blue grid used by Hero and Creator CTA */
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.12) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.12) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
