@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+<<<<<<< HEAD
 import path from "path";
 
 const nextConfig: NextConfig = {
@@ -8,6 +9,11 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: __dirname,
   },
+=======
+
+const nextConfig: NextConfig = {
+  /* config options here */
+>>>>>>> f800b4b783c587c4e89c633aab056d2ab3364a91
 };
 
 export default nextConfig;
